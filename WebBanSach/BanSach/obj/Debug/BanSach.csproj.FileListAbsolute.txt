@@ -1,0 +1,12 @@
+E:\C#\ASP.net\BTL\BanSach\BanSach\bin\BanSach.dll.config
+E:\C#\ASP.net\BTL\BanSach\BanSach\bin\BanSach.dll
+E:\C#\ASP.net\BTL\BanSach\BanSach\bin\BanSach.pdb
+E:\C#\ASP.net\BTL\BanSach\BanSach\obj\Debug\BanSach.csprojResolveAssemblyReference.cache
+E:\C#\ASP.net\BTL\BanSach\BanSach\obj\Debug\BanSach.dll
+E:\C#\ASP.net\BTL\BanSach\BanSach\obj\Debug\BanSach.pdb
+E:\C#\ASP.net\BTL\BanSach1\BanSach\bin\BanSach.dll.config
+E:\C#\ASP.net\BTL\BanSach1\BanSach\bin\BanSach.dll
+E:\C#\ASP.net\BTL\BanSach1\BanSach\bin\BanSach.pdb
+E:\C#\ASP.net\BTL\BanSach1\BanSach\obj\Debug\BanSach.csprojResolveAssemblyReference.cache
+E:\C#\ASP.net\BTL\BanSach1\BanSach\obj\Debug\BanSach.dll
+E:\C#\ASP.net\BTL\BanSach1\BanSach\obj\Debug\BanSach.pdb

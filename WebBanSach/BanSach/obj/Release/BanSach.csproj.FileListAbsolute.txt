@@ -1,0 +1,5 @@
+E:\C#\ASP.net\BTL\BanSach\BanSach\bin\BanSach.dll.config
+E:\C#\ASP.net\BTL\BanSach\BanSach\bin\BanSach.dll
+E:\C#\ASP.net\BTL\BanSach\BanSach\bin\BanSach.pdb
+E:\C#\ASP.net\BTL\BanSach\BanSach\obj\Release\BanSach.dll
+E:\C#\ASP.net\BTL\BanSach\BanSach\obj\Release\BanSach.pdb

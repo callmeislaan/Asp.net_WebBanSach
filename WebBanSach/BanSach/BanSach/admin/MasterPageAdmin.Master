@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPageAdmin.master.cs" Inherits="BanSach.admin.MasterPageAdmin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table class="auto-style1">
+        <tr>
+            <td><h1>
+                <asp:Image ID="Image1" runat="server" Height="58px" ImageUrl="~/images/008-medal.png" Width="94px" />
+                Cửa hàng sách online</h1></td>
+        </tr>
+        <tr>
+            <td>
+                <asp:LinkButton ID="lbtnQuanLyDanhMuc" runat="server" PostBackUrl="~/admin/QuanLyDanhMuc.aspx">Quản lý danh mục</asp:LinkButton>
+&nbsp;
+                <asp:LinkButton ID="lbtnQuanLySach" runat="server" PostBackUrl="~/admin/QuanLySach.aspx">Quản lý sách</asp:LinkButton>
+&nbsp;
+                <asp:LinkButton ID="lbtnQuanLyTingTrangDonHang" runat="server" PostBackUrl="~/admin/QuanLyHoaDon.aspx">Quản lý tình trạng đơn hàng</asp:LinkButton>
+&nbsp;
+                <asp:LinkButton ID="lbtnQuanLyThanhVien" runat="server" PostBackUrl="~/admin/QuanLyThanhVien.aspx">Quản lý thành viên</asp:LinkButton>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <hr />
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                <hr />
+            </td>
+        </tr>
+        <tr>
+            <td>Bán sách online</td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

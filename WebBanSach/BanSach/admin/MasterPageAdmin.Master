@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPageAdmin.master.cs" Inherits="BanSach.admin.MasterPageAdmin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table class="auto-style1">
+            <tr>
+                <td>
+                    <asp:Image ID="Image1" runat="server" Height="100px" ImageAlign="Left" ImageUrl="~/images/logo.jpeg" Width="100px" />
+                    <h1>Bán sách online</h1></td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:LinkButton ID="lbtnQLDanhMuc" runat="server" PostBackUrl="~/admin/QuanLyDanhMuc.aspx">Quản lý danh mục</asp:LinkButton>
+&nbsp;
+                    <asp:LinkButton ID="lbtnQLSach" runat="server" PostBackUrl="~/admin/QuanLySach.aspx">Quản lý sách</asp:LinkButton>
+&nbsp;
+                    <asp:LinkButton ID="lbtnQLDonHang" runat="server" PostBackUrl="~/admin/QuanLyDonHang.aspx">Quản lý đơn hàng</asp:LinkButton>
+&nbsp;
+                    <asp:LinkButton ID="lbtnQLThanhVien" runat="server" PostBackUrl="~/admin/QuanLyThanhVien.aspx">Quản lý thành viên</asp:LinkButton>
+                &nbsp;
+                    <asp:LinkButton ID="btnDangXuat" runat="server" OnClick="btnDangXuat_Click">Đăng xuất</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <hr />
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <hr />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2"><strong>Bán sách online</strong></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

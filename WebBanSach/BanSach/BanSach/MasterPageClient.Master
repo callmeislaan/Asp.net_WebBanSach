@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPageClient.master.cs" Inherits="BanSach.MasterPageClient" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table class="auto-style1">
+                <tr>
+                    <td><h1>
+                        <asp:Image ID="Image1" runat="server" Height="58px" ImageUrl="~/images/008-medal.png" Width="94px" />
+                        Cửa Hàng Bán Sách Online</h1></td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:LinkButton ID="lbtnTTTinhCamLangMan" runat="server" PostBackUrl="~/SachThieuNhi.aspx">Tiểu thuyết tình yêu lãng mạn</asp:LinkButton>
+&nbsp;
+                        <asp:LinkButton ID="lbtnSachVanHoc" runat="server" PostBackUrl="~/SachThieuNhi.aspx">Sách văn học</asp:LinkButton>
+&nbsp;
+                        <asp:LinkButton ID="lbtnTruyenNganTanVan" runat="server" PostBackUrl="~/SachThieuNhi.aspx">Truyện Ngắn - Tản Văn</asp:LinkButton>
+&nbsp;
+                        <asp:LinkButton ID="lbtnSachThieuNhi" runat="server" PostBackUrl="~/SachThieuNhi.aspx">Sách thiếu nhi</asp:LinkButton>
+&nbsp; 
+                        <asp:LinkButton ID="lbtnDangNhap" runat="server" PostBackUrl="~/DangNhap.aspx">Đăng nhập</asp:LinkButton>
+&nbsp;
+                        <asp:LinkButton ID="lbtnDangKy" runat="server" PostBackUrl="~/DangKy.aspx">Đăng ký</asp:LinkButton>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <hr />
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                        <hr />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Bán sách online</td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

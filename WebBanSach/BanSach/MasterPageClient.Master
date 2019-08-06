@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPageClient.master.cs" Inherits="BanSach.MasterPageClient" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            font-size: x-large;
+        }
+        .auto-style3 {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table class="auto-style1">
+            <tr>
+                <td>
+                    <asp:Image ID="Image1" runat="server" Height="100px" ImageAlign="Left" ImageUrl="~/images/logo.jpeg" Width="100px" />
+                    <h1>Bán sách online</h1></td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+&nbsp;<asp:LinkButton ID="lbtnTrangSach" runat="server" PostBackUrl="~/TrangSach.aspx">Trang sách</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:LinkButton ID="lbtnGioHang" runat="server" PostBackUrl="~/GioHang.aspx">Xem giỏ hàng</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;&nbsp; <asp:LinkButton ID="lbtnDangNhap" runat="server" OnClick="lbtnDangNhap_Click">Đăng nhập</asp:LinkButton>
+                &nbsp;&nbsp;&nbsp;&nbsp; <asp:LinkButton ID="lbtnDangKy" runat="server" PostBackUrl="~/DangKy.aspx">Đăng ký</asp:LinkButton>
+                    <br />
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <hr />
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                    <hr />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2"><strong>Bán sách online</strong></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
